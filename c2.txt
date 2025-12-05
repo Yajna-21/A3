@@ -1,0 +1,39 @@
+c2
+slack install
+1.new channel
+open Jenkins
+click manage Jenkins
+
+
+2.tools
+apps
+Jenkins
+open app
+copy ID
+
+3.jenkins
+manage 
+system
+plugins
+plugins{
+click on installed plugin
+search slack notification
+if not there download
+}
+add credential
+{
+add:jenkins
+scret text
+secret:ID
+
+add
+}
+apply 
+save
+new item
+enter item name
+ok
+build now
+scroll down build steps
+execute window batch
+save
